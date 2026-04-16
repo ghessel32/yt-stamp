@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+  
+  --color-bg-natural: #F8F7F4;
+  --color-card-natural: #FFFFFF;
+  --color-primary-natural: #5E634E;
+  --color-secondary-natural: #A39B88;
+  --color-accent-natural: #E8E3D9;
+  --color-text-main-natural: #2C2B28;
+  --color-text-muted-natural: #7A766E;
+  --color-border-natural: #E1DDD5;
+  --color-sidebar-natural: #F2EFE9;
+  --color-tag-bg-natural: #F0F2EB;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

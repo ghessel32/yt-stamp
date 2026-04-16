@@ -1,0 +1,6 @@
+{
+  "name": "YT Timestamp Saver",
+  "description": "Save, group, and share YouTube timestamps with notes and tags. Features oEmbed integration, Twitter thread export, and JSON backup.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
